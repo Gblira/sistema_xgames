@@ -1,0 +1,34 @@
+X GAMES - Windows bloqueou o X-GAMES.exe?
+============================================
+
+O build foi feito com SUCESSO. O Windows 11 (Controle Inteligente de
+Aplicativos) bloqueia programas .exe que nao tem assinatura digital
+de empresa. Isso e normal em programas feitos na casa, nao e virus.
+
+SOLUCAO 1 - Desativar o bloqueio (recomendado para o PC da loja)
+----------------------------------------------------------------
+1. Abra Configuracoes do Windows
+2. Privacidade e seguranca
+3. Seguranca do Windows
+4. Controle de aplicativos e navegador
+5. Configuracoes do Controle Inteligente de Aplicativos
+6. Escolha DESATIVADO
+7. Reinicie o computador
+8. Execute X-GAMES.exe de novo
+
+SOLUCAO 2 - Usar sem .exe (precisa instalar Python 1 vez)
+---------------------------------------------------------
+1. Instale Python em: https://www.python.org/downloads/
+   (marque "Add python to PATH")
+2. Na pasta do projeto, duplo clique em: Abrir X-GAMES.bat
+3. Funciona igual, so precisa do Python instalado
+
+SOLUCAO 3 - Copiar para a loja
+------------------------------
+A pasta correta e: dist\X-GAMES\  (copie a pasta INTEIRA)
+Dentro deve ter: X-GAMES.exe, app.py, data\, _internal\
+
+IMPORTANTE
+----------
+- Nao apague a pasta "data" (banco de dados dos clientes)
+- O antivirus pode avisar na primeira vez: permita o programa

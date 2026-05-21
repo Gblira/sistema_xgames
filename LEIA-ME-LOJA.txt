@@ -1,0 +1,31 @@
+X GAMES - Sistema de Ordens de Servico
+======================================
+
+COMO ABRIR O SISTEMA
+--------------------
+1. De duplo clique em "X-GAMES.exe"
+2. Aguarde o navegador abrir (Chrome ou Edge)
+3. Use o sistema normalmente
+
+IMPORTANTE
+----------
+- Nao apague a pasta "data" - e onde ficam os clientes e pedidos
+- Faca backup pelo botao na barra lateral do sistema
+- Para fechar: feche a janela preta (terminal) OU feche o navegador e a janela preta
+
+COPIAR PARA OUTRO COMPUTADOR
+----------------------------
+Copie a pasta X-GAMES inteira para o PC da loja.
+Nao precisa instalar Python na loja se usar o .exe gerado.
+
+PRIMEIRA VEZ NO PC DA LOJA
+--------------------------
+Se o antivirus bloquear, clique em "Permitir" ou "Mais informacoes" > "Executar assim mesmo".
+
+BUSCAR PEDIDO ANTIGO
+--------------------
+Na aba Novo Cadastro: digite o numero do pedido e clique na lupa.
+
+SUPORTE
+-------
+Em caso de duvida, fale com quem instalou o sistema.

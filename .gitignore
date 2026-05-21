@@ -1,0 +1,59 @@
+# =======================================================================
+# SISTEMA X-GAMES - CONFIGURAÇÃO DE PRIVACIDADE E SEGURANÇA (.gitignore)
+# =======================================================================
+
+# 1. BANCOS DE DADOS E DADOS DE CLIENTES (CRÍTICO - NUNCA SUBIR)
+# -----------------------------------------------------------------------
+# Ignora o banco de dados principal do site (SQLite) e seus arquivos temporários
+*.db
+*.db-journal
+*.sqlite3
+sistema_xgames.db
+src/data/sistema_xgames.db
+data/sistema_xgames.db
+
+# Ignora todos os arquivos de backup do Microsoft Access enviados pela loja
+*.mdb
+*.accdb
+"CADASTRO DE CLIENTES - X-GAMES.mdb"
+
+# Ignora pastas inteiras de armazenamento local que contêm dados confidenciais
+data/
+src/data/
+backups/
+data/backups/
+
+# 2. DOCUMENTOS GERADOS (ORDENS DE SERVIÇO / ORÇAMENTOS)
+# -----------------------------------------------------------------------
+# Ignora qualquer relatório ou documento em PDF gerado para os clientes
+*.pdf
+pdfs/
+data/pdfs/
+
+# 3. AMBIENTE VIRTUAL E DEPENDÊNCIAS DO PYTHON
+# -----------------------------------------------------------------------
+# Ignora pastas de cache de execução do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ignora ambientes virtuais locais (onde ficam instaladas as bibliotecas)
+.venv/
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# 4. CONFIGURAÇÕES LOCAIS E CHAVES DE ACESSO
+# -----------------------------------------------------------------------
+# Ignora arquivos de senhas ou chaves de API do Streamlit se existirem
+.streamlit/secrets.toml
+
+# 5. ARQUIVOS DO SISTEMA OPERACIONAL (WINDOWS / MAC)
+# -----------------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
